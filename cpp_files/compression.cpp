@@ -31,7 +31,6 @@ void compress(FILE* fin, FILE* fout){
         if (currChar == EOF) break;
     }
     buffer[p_buf] = '\0';
-    printf("%s", buffer);
     fwrite(buffer, p_buf, sizeof(char), fout);
 
     fclose(fin);
