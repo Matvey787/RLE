@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "..\headers\compression.h"
+#include "../headers/compression.h"
 void recordRepeatChars(unsigned char* buffer, int* p_buf, FILE* fout, int charToWrite, int summOfChars);
 void recordNotRepeatChars(unsigned char* buffer, int* p_buf, FILE* fout, int charToWrite);
 void writeChars(unsigned char* buffer, int* p_buf, FILE* fout, int* charToWrite, int* currChar, int* summOfChars);

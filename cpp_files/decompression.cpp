@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-#include "..\headers\decompression.h"
+#include "../headers/decompression.h"
 
 void decompress(FILE* cFile, FILE* deccFile){
     if (cFile == NULL)  {printf("compresed file error\n"); return;}
